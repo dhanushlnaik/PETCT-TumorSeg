@@ -1,0 +1,21 @@
+{
+  "patient_id": "demo_patient",
+  "ct_dir": "data/CT",
+  "pet_dir": "data/PET",
+  "target_size": [
+    256,
+    256
+  ],
+  "ct_spacing_mm": [
+    5.0,
+    1.953125,
+    1.953125
+  ],
+  "pet_spacing_mm": [
+    2.027,
+    2.6727946874999997,
+    2.6727946874999997
+  ],
+  "num_slices_ct": 225,
+  "augmentations_per_slice": 0
+}
