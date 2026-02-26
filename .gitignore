@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual env
+.venv/
+
+# Outputs and artifacts
+outputs/
+
+# Local workspace files
+*.code-workspace

@@ -1,0 +1,20 @@
+autopet_root: /path/to/autopet/nifti
+output_root: outputs
+
+target_size: [256, 256]
+
+training:
+  epochs: 30
+  batch_size: 8
+  val_fraction: 0.2
+  seed: 42
+  max_studies: null
+  max_slices_per_study: 128
+
+model:
+  architecture: unet_2d
+  input_channels: 2
+  loss: bce_plus_dice
+  metrics:
+    - dice
+    - iou
